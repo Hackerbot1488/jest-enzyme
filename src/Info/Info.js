@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Info extends Component {
+export class Info extends Component {
   state = {
     value: "Test value",
     width: 0,
@@ -34,4 +34,3 @@ class Info extends Component {
   }
 }
 
-export default Info;
