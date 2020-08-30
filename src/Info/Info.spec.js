@@ -5,7 +5,7 @@ const setUp = shallow(<Info />)
 
 const componentDidMountSpy = jest.spyOn(Info.prototype, 'componentDidMount')
 const componentDidUpdateSpy = jest.spyOn(Info.prototype, 'componentDidUpdate')
-const componentWillUnmountSpy = jest.spyOn(Info.prototype, 'componentWillMount')
+const componentWillUnmountSpy = jest.spyOn(Info.prototype, 'componentWillUnmount')
 describe('Info component', () => {
   let component;
   beforeEach(() => {
